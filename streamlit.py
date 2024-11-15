@@ -141,11 +141,12 @@ if st.button("Find Paths"):
     
     # Update layout for better visualization
     fig.update_layout(
-        title="Computation Time Comparison",
+        title="Computation Time Comparison (Hover on the bar to know to unit)",
         xaxis_title="Algorithm",
-        yaxis_title="Time (seconds)",
+        yaxis_title="Time",
         
     )
+    
     
     # Display the Plotly figure
     st.plotly_chart(fig)
