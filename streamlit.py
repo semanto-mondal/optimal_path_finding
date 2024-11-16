@@ -124,7 +124,7 @@ if st.button("Find Paths"):
         st.write("No path found.")
     
     # Bar plot comparison of computation times using Plotly
-    st.subheader("Computation Time Comparison (in seconds)")
+    st.subheader("Computation Time Comparison")
     
     # Add a small constant to ensure the bars are visible even for very small times
     bfs_time = max(bfs_time, 0.0001)  # Add a small constant
